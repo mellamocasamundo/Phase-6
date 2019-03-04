@@ -1,7 +1,7 @@
 a = document.getElementById("ice1");
 b = document.getElementById("ice2");
 c = document.getElementById("ice3");
-d = document.getElementById("home");
+d = document.getElementById("sky");
 var mySound = document.getElementById('cracking');
 var mySound1 = document.getElementById('scrat');
 
