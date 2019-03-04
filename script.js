@@ -21,10 +21,10 @@ function nextImage(el){
 
 function checkOrder(el){
 	if (a.src.match("image/dirt.jpg") && b.src.match("image/dirt.jpg") && c.src.match("image/dirt.jpg")){
-		alert("Scrat has his acorn!");
 		el.src = "home (1).png";
 		d.src="sky(1).png"
 		mySound1.play();
+		alert("Scrat has his acorn!");
 	} else {
 		mySound1.play();
 		alert("Scrat wants his acorn!");
