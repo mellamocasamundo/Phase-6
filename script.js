@@ -23,7 +23,7 @@ function checkOrder(el){
 	if (a.src.match("image/dirt.jpg") && b.src.match("image/dirt.jpg") && c.src.match("image/dirt.jpg")){
 		alert("Scrat has his acorn!");
 		el.src = "home (1).png";
-		a.src="sky(1).png"
+		d.src="sky(1).png"
 		mySound1.play();
 	} else {
 		alert("Scrat wants his acorn!");
