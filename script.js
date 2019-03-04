@@ -21,5 +21,6 @@ function checkOrder(el){
 	if (a.src.match("image/dirt.jpg") && b.src.match("image/dirt.jpg") && c.src.match("image/dirt.jpg")){
 		alert("Scrat has his acorn!")
 	} else {
+		alert("Scrat wants his acorn!")
 	}
 }
