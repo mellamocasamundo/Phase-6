@@ -4,9 +4,9 @@ c = document.getElementById("ice3");
 var mySound = document.getElementById('you-win');
 
 function nextImage(el){
-	if (el.src.match("images/ice.PNG")){ 
-		el.src = "images/ice (1).PNG";
-	} else if (el.src.match("images/ice(1).PNG")){ 
+	if (el.src.match("images/ice.png")){ 
+		el.src = "images/ice (1).jpg";
+	} else if (el.src.match("images/ice(1).jpg")){ 
 		el.src = "images/ice(2).PNG";
 	} else {
 	}
