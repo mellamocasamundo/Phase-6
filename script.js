@@ -5,7 +5,7 @@ d = document.getElementById("sky");
 var mySound = document.getElementById('cracking');
 var mySound1 = document.getElementById('scrat');
 
-function nextFirstImage(el){
+function nextImage(el){
 	if (el.src.match("image/ice.png")){ 
 		el.src = "image/ice (1).jpg";
 		mySound.play();
