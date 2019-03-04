@@ -1,6 +1,7 @@
 a = document.getElementById("ice1");
 b = document.getElementById("ice2");
 c = document.getElementById("ice3");
+d = document.getElementById("home");
 var mySound = document.getElementById('cracking');
 var mySound1 = document.getElementById('scrat');
 
@@ -22,6 +23,7 @@ function checkOrder(el){
 	if (a.src.match("image/dirt.jpg") && b.src.match("image/dirt.jpg") && c.src.match("image/dirt.jpg")){
 		alert("Scrat has his acorn!");
 		el.src = "home (1).png";
+		a.src="sky(1).png"
 		mySound1.play();
 	} else {
 		alert("Scrat wants his acorn!");
