@@ -8,7 +8,7 @@ function nextImage(el){
 		el.src = "image/ice (1).jpg";
 	} else if (el.src.match("image/ice(1).jpg")){ 
 		el.src = "image/dirt.jpg";
-	} else if {el.src.math("image.dirt.jpg")){
+	} else if (el.src.match("image.dirt.jpg")){
 		el.src = "image/ice.png";
 	} else {
 	}
