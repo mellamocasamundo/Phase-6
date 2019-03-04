@@ -1,10 +1,13 @@
-function nextFirstImage(el){
+a = document.getElementById("ice1");
+b = document.getElementById("ice2");
+c = document.getElementById("ice3");
+var mySound = document.getElementById('you-win');
+
+function nextImage(el){
 	if (el.src.match("images/ice.PNG")){ 
-		el.src = "images/.PNG";
-	} else if (el.src.match("images/lemon_slot.PNG")){ 
-		el.src = "images/orange_slot.PNG";
-	} else if (el.src.match("images/orange_slot.PNG")){ 
-		el.src = "images/cherry_slot.PNG";
+		el.src = "images/ice (1).PNG";
+	} else if (el.src.match("images/ice(1).PNG")){ 
+		el.src = "images/ice(2).PNG";
 	} else {
 	}
 }
