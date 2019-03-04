@@ -10,14 +10,14 @@ function nextImage(el){
 		el.src = "image/ice1.png";
 		mySound.play();
 	} else if (el.src.match("image/ice1.png")){ 
-		el.src = "image/dirt.jpg";
+		el.src = "image/dirt.png";
 		mySound.play();
 	} else {
 	}
 }
 
 function checkOrder(el){
-	if (a.src.match("image/dirt.jpg") && b.src.match("image/dirt.jpg") && c.src.match("image/dirt.jpg")){
+	if (a.src.match("image/dirt.png") && b.src.match("image/dirt.png") && c.src.match("image/dirt.png")){
 		el.src = "home1.png";
 		d.src = "sky1.png"
 		mySound1.play();
