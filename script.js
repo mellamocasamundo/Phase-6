@@ -10,7 +10,7 @@ function nextImage(el){
 		el.src = "image/ice (1).jpg";
 		mySound.play();
 	} else if (el.src.match("image/ice (1).jpg")){ 
-		el.src = "image/dirt.jpg";
+		el.src = "image/ice.png";
 		mySound.play();
 	} else {
 	}
