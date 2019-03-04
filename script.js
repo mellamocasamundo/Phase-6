@@ -26,7 +26,7 @@ function checkOrder(el){
 		d.src="sky(1).png"
 		mySound1.play();
 	} else {
-		alert("Scrat wants his acorn!");
 		mySound1.play();
+		alert("Scrat wants his acorn!");
 	}
 }
