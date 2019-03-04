@@ -2,6 +2,7 @@ a = document.getElementById("ice1");
 b = document.getElementById("ice2");
 c = document.getElementById("ice3");
 var mySound = document.getElementById('cracking');
+var mySound1 = document.getElementById('scrat');
 
 function nextImage(el){
 	if (el.src.match("image/ice.png")){ 
@@ -20,7 +21,9 @@ function nextImage(el){
 function checkOrder(el){
 	if (a.src.match("image/dirt.jpg") && b.src.match("image/dirt.jpg") && c.src.match("image/dirt.jpg")){
 		alert("Scrat has his acorn!")
+		mySound1.play();
 	} else {
 		alert("Scrat wants his acorn!")
+		mySound1.play();
 	}
 }
