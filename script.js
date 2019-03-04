@@ -5,16 +5,12 @@ d = document.getElementById("sky");
 var mySound = document.getElementById('cracking');
 var mySound1 = document.getElementById('scrat');
 
-function nextImage(el){
+function nextFirstImage(el){
 	if (el.src.match("image/ice.png")){ 
 		el.src = "image/ice (1).jpg";
 		mySound.play();
 	} else if (el.src.match("image/ice (1).jpg")){ 
-		alert("Yo");
 		el.src = "image/dirt.jpg";
-		mySound.play();
-	} else if (el.src.match("image/dirt.jpg")){
-		el.src = "image/ice.png";
 		mySound.play();
 	} else {
 	}
