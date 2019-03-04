@@ -18,8 +18,8 @@ function nextImage(el){
 
 function checkOrder(el){
 	if (a.src.match("image/dirt.jpg") && b.src.match("image/dirt.jpg") && c.src.match("image/dirt.jpg")){
-		el.src = "home (1).png";
-		d.src = "sky (1).png"
+		el.src = "home1.png";
+		d.src = "sky1.png"
 		mySound1.play();
 		alert("Scrat has his acorn!");
 	} else {
