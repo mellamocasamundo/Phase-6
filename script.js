@@ -20,10 +20,11 @@ function nextImage(el){
 
 function checkOrder(el){
 	if (a.src.match("image/dirt.jpg") && b.src.match("image/dirt.jpg") && c.src.match("image/dirt.jpg")){
-		alert("Scrat has his acorn!")
+		alert("Scrat has his acorn!");
+		el.src = "home (1).png";
 		mySound1.play();
 	} else {
-		alert("Scrat wants his acorn!")
+		alert("Scrat wants his acorn!");
 		mySound1.play();
 	}
 }
