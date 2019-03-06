@@ -5,11 +5,33 @@ d = document.getElementById("sky");
 var mySound = document.getElementById('cracking');
 var mySound1 = document.getElementById('scrat');
 
-function nextImage(el){
+function nextFirstImage(el){
 	if (el.src.match("image/ice.png")){ 
 		el.src = "image/ice1.png";
 		mySound.play();
 	} else if (el.src.match("image/ice1.png")){ 
+		el.src = "image/dirt.png";
+		mySound.play();
+	} else {
+	}
+}
+
+function nextSecondImage(el){
+	if (c.src.match("image/dirt.png")){
+		el.src = "image/ice1.png";
+		mySound.play();
+	} else if (el.src.match("image/ice1.png")){
+		el.src = "image/dirt.png";
+		mySound.play();
+	} else {
+	}
+}
+
+function nextThirdImage(el){
+	if (b.src.match("image/dirt.png") && c.src.match("image/dirt.png")){
+		el.src = "image/ice1.png";
+		mySound.play();
+	} else if (el.src.match("image/ice1.png")){
 		el.src = "image/dirt.png";
 		mySound.play();
 	} else {
