@@ -16,27 +16,29 @@ function nextFirstImage(el){
 	}
 }
 
-function nextSecondImage(el){
-	if (a.src.match("image/ice.png") && b.src.match("image/ice.png") &&c.src.match("image/dirt.png")){
-		el.src = "image/ice1.png";
-		mySound.play();
-	} else if (a.src.match("image/ice.png") && b.src.match("image/ice1.png") && c.src.match("image/dirt.png")){
-		el.src = "image/dirt.png";
-		mySound.play();
+function checkOrder(el){
+	if (a.src.match("image/dirt.png") && b.src.match("image/dirt.png") && c.src.match("image/dirt.png")){
+		el.src = "image/home1.png";
+		d.src = "image/sky1.png"
+		mySound1.play();
+		alert("Scrat has his acorn!");
 	} else {
+		mySound1.play();
+		alert("Scrat wants his acorn!");
+	}
+}
+function checkOrder(el){
+	if (a.src.match("image/dirt.png") && b.src.match("image/dirt.png") && c.src.match("image/dirt.png")){
+		el.src = "image/home1.png";
+		d.src = "image/sky1.png"
+		mySound1.play();
+		alert("Scrat has his acorn!");
+	} else {
+		mySound1.play();
+		alert("Scrat wants his acorn!");
 	}
 }
 
-function nextThirdImage(el){
-	if (a.src.match("image/ice.png") && b.src.match("image/dirt.png") && c.src.match("image/dirt.png")){
-		el.src = "image/ice1.png";
-		mySound.play();
-	} else if (a.src.match("image/ice1.png") && b.src.match("image/dirt.png") && c.src.match("image/dirt.png")){
-		el.src = "image/dirt.png";
-		mySound.play();
-	} else {
-	}
-}
 
 function checkOrder(el){
 	if (a.src.match("image/dirt.png") && b.src.match("image/dirt.png") && c.src.match("image/dirt.png")){
@@ -44,6 +46,7 @@ function checkOrder(el){
 		d.src = "image/sky1.png"
 		mySound1.play();
 		alert("Scrat has his acorn!");
+		document.getElementById("sky2").src="image/boss_key.gif"
 	} else {
 		mySound1.play();
 		alert("Scrat wants his acorn!");
