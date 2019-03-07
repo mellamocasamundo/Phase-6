@@ -9,11 +9,6 @@ div {
 	display: block;
 }
 
-.sky {
-	height: calc(100vh/4);
-	width: calc(100vw/3);
-}
-
 .water {
 	height: calc(100vh/(4/3));
 	width: calc(100vw/3);
@@ -25,7 +20,12 @@ div {
 	
 }
 
-.home{
+.center {
 	height: calc(100vh/4);
 	width: calc(100vw/3);
+}
+
+.alignment {
+	align-items: center;
+	jusitfy-content: center;
 }
