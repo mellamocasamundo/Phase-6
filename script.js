@@ -43,6 +43,7 @@ function checkOrder(el){
 		el.src = "image/home1.png";
 		d.src = "image/sky1.png"
 		mySound1.play();
+		e.src = "image/boss_key.gif";
 		alert("Scrat has his acorn!");
 		
 	} else {
