@@ -8,8 +8,8 @@ var mySound = document.getElementById('cracking');
 var mySound1 = document.getElementById('scrat');
 
 function nextFirstImage(el){
-		el.src = "image/ice1.png";
-		mySound.play();
+	el.src = "image/ice1.png";
+	mySound.play();
 	} if (el.src.match("image/ice1.png")){ 
 		el.src = "image/dirt.png";
 		mySound.play();
