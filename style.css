@@ -12,6 +12,7 @@ div {
 .water {
 	height: calc(100vh/(4/3));
 	width: calc(100vw/3);
+	background-image: url("image/ocean.png");
 }
 
 .ice {
