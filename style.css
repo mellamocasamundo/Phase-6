@@ -23,6 +23,8 @@ div {
 .sky {
 	height: calc(100vh/4);
 	width: calc(100vw/3);
+	align-items: center;
+	jusitfy-content: center;
 }
 
 .home {
