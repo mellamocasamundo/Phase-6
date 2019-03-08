@@ -4,6 +4,7 @@ c = document.getElementById("ice3");
 d = document.getElementById("sky");
 e = document.getElementById("key");
 f = document.getElementById("home");
+g = document.getElementById("acorn");
 var mySound = document.getElementById('cracking');
 var mySound1 = document.getElementById('scrat');
 
