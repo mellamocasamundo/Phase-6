@@ -19,26 +19,31 @@ div {
 	height: calc(100vh/6);
 	width: calc(100vw/3);
 	cursor: pointer;
+	background-image: url("image/ice.png");
 }
 
 .sky1 {
 	height: calc(100vh/4);
 	width: calc(100vw/3);
+	background-image: url("image/sky.png");
 }
 
 .sky2 {
 	height: calc(100vh/4);
 	width: calc(100vw/3);
+	background-image: url("image/sky1.png");
 }
 
 .sky3 {
 	height: calc(100vh/4);
 	width: calc(100vw/3);
+	background-image: url("image/sky2.png");
 }
 
 .home {
 	height: calc(100vh/4);
 	width: calc(100vw/3);
+	background-image: url("image/home.png");
 	max-height: 100%;
 	max-width: 100%;
 }
