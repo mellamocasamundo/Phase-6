@@ -18,7 +18,7 @@ function nextFirstImage(el){
 }
 
 function nextSecondImage(el){
-	if (c.src.match("image/dirt.png")){
+	if (a.src.match("image/ice.png") && b.src.match("image/ice.png") && c.src.match("image/dirt.png")){
 		el.src = "image/ice1.png";
 		mySound.play();
 	} else if (el.src.match("image/ice1.png")){ 
@@ -28,7 +28,7 @@ function nextSecondImage(el){
 	}
 }
 function nextThirdImage(el){
-	if (b.src.match("image/dirt.png") && c.src.match("image/dirt.png")){
+	if (a.src.match("image/ice.png") && b.src.match("image/dirt.png") && c.src.match("image/dirt.png")){
 		el.src = "image/ice1.png";
 		mySound.play();
 	} else if (el.src.match("image/ice1.png")){ 
