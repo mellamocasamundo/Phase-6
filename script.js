@@ -19,20 +19,20 @@ function nextFirstImage(el){
 
 function nextSecondImage(el){
 	if (a.src.match("image/ice.png") && b.src.match("image/ice.png") && c.src.match("image/dirt.png")){
-		el.src = "image/ice1.png";
+		b.src = "image/ice1.png";
 		mySound.play();
-	} else if (el.src.match("image/ice1.png")){ 
-		el.src = "image/dirt.png";
+	} else if (b.src.match("image/ice1.png")){ 
+		b.src = "image/dirt.png";
 		mySound.play();
 	} else {
 	}
 }
 function nextThirdImage(el){
 	if (a.src.match("image/ice.png") && b.src.match("image/dirt.png") && c.src.match("image/dirt.png")){
-		el.src = "image/ice1.png";
+		a.src = "image/ice1.png";
 		mySound.play();
 	} else if (el.src.match("image/ice1.png")){ 
-		el.src = "image/dirt.png";
+		a.src = "image/dirt.png";
 		mySound.play();
 	} else {
 	}
