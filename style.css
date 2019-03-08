@@ -24,6 +24,8 @@ div {
 	height: calc(100vh/4);
 	width: calc(100vw/3);
 	background-image: url("image/sky2.png");
+	max-height: 100%;
+	max-width: 100%;
 }
 
 .alignment {
