@@ -17,6 +17,7 @@ div {
 .ice {
 	height: calc(100vh/6);
 	width: calc(100vw/3);
+	cursor: pointer;
 	
 }
 
