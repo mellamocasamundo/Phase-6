@@ -18,10 +18,14 @@ div {
 	height: calc(100vh/6);
 	width: calc(100vw/3);
 	cursor: pointer;
-	
 }
 
 .sky {
+	height: calc(100vh/4);
+	width: calc(100vw/3);
+}
+
+.home {
 	height: calc(100vh/4);
 	width: calc(100vw/3);
 }
