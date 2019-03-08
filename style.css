@@ -13,31 +13,45 @@ div {
 	height: calc(100vh/(4/3));
 	width: calc(100vw/3);
 	background-image: url("image/ocean.png");
+	max-height: 100%;
+	max-width: 100%;
 }
 
+.puzzle {
+	height: calc((100vh/6)*3);
+	width: calc(100vw/3);
+}
 .ice {
 	height: calc(100vh/6);
 	width: calc(100vw/3);
 	cursor: pointer;
 	background-image: url("image/ice.png");
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.sky {
+	height: calc(100vh/4);
+	width: calc(100vw/3);
+	background-image: url("image/sky.png");
+	max-height: 100%;
+	max-width: 100%;
 }
 
 .sky1 {
 	height: calc(100vh/4);
 	width: calc(100vw/3);
-	background-image: url("image/sky.png");
+	background-image: url("image/sky1.png");
+	max-height: 100%;
+	max-width: 100%;
 }
 
 .sky2 {
 	height: calc(100vh/4);
 	width: calc(100vw/3);
-	background-image: url("image/sky1.png");
-}
-
-.sky3 {
-	height: calc(100vh/4);
-	width: calc(100vw/3);
 	background-image: url("image/sky2.png");
+	max-height: 100%;
+	max-width: 100%;
 }
 
 .home {
