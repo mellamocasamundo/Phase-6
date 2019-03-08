@@ -8,10 +8,11 @@ var mySound = document.getElementById('cracking');
 var mySound1 = document.getElementById('scrat');
 
 function nextFirstImage(el){
-	el.src = "image/ice1.png";
-	mySound.play();
-	} if (el.src.match("image/ice1.png")){ 
-		el.src = "image/dirt.png";
+	} if (c.src.match("image/ice.png")){ 
+		c.src = "image/ice1.png";
+		mySound.play();
+	} else if (c.src.match("image/ice1.png")){ 
+		c.src = "image/dirt.png";
 		mySound.play();
 	} else {
 	}
@@ -19,20 +20,20 @@ function nextFirstImage(el){
 
 function nextSecondImage(el){
 	if (c.src.match("image/dirt.png")){
-		el.src = "image/ice1.png";
+		b.src = "image/ice1.png";
 		mySound.play();
-	} else if (el.src.match("image/ice1.png")){ 
-		el.src = "image/dirt.png";
+	} else if (b.src.match("image/ice1.png")){ 
+		b.src = "image/dirt.png";
 		mySound.play();
 	} else {
 	}
 }
 function nextThirdImage(el){
 	if (b.src.match("image/dirt.png") && c.src.match("image/dirt.png")){
-		el.src = "image/ice1.png";
+		a.src = "image/ice1.png";
 		mySound.play();
-	} else if (el.src.match("image/ice1.png")){ 
-		el.src = "image/dirt.png";
+	} else if (a.src.match("image/ice1.png")){ 
+		a.src = "image/dirt.png";
 		mySound.play();
 		f.src = "image/home1.png";
 		d.src = "image/sky1.png"
@@ -44,15 +45,5 @@ function nextThirdImage(el){
 }
 
 function checkOrder(el){
-	if (a.src.match("image/dirt.png") && b.src.match("image/dirt.png") && c.src.match("image/dirt.png")){
-		f.src = "image/home1.png";
-		d.src = "image/sky1.png"
-		mySound1.play();
-		e.src = "image/boss_key.gif";
-		alert("Scrat has his acorn!");
-		
-	} else {
-		mySound1.play();
 		alert("Scrat wants his acorn!");
-	}
 }
