@@ -34,6 +34,12 @@ function nextThirdImage(el){
 	} else if (el.src.match("image/ice1.png")){ 
 		a.src = "image/dirt.png";
 		mySound.play();
+	} else if (a.src.match("image/dirt.png") && b.src.match("image/dirt.png") && c.src.match("image/dirt.png")){ {
+		el.src = "image/home1.png";
+		d.src = "image/sky1.png"
+		mySound1.play();
+		e.src = "image/boss_key.gif";
+		alert("Scrat has his acorn!");
 	} else {
 	}
 }
