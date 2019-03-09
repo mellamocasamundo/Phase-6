@@ -3,7 +3,6 @@ b = document.getElementById("ice2");
 c = document.getElementById("ice3");
 d = document.getElementById("acorn");
 e = document.getElementById("acorn1");
-f = document.getElementById("key");
 var mySound = document.getElementById('cracking');
 var mySound1 = document.getElementById('scrat');
 
