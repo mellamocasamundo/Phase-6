@@ -20,12 +20,12 @@ function nextThirdImage(el){
 		mySound.play();
 	} else if (el.src.match("image/ice1.png")){ 
 		el.src = "image/dirt.png";
-		d.classList.add('key');
 		mySound.play();
 		d.src = "image/boss_key.gif";
 		e.src = "image/acorn.png"
 		mySound1.play();
 		alert("Scrat has his acorn!");
+		d.classList.add('key');
 		e.classList.add('image');
 		a.classList.remove('pointer');
 		f.classList.remove('pointer');
