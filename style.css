@@ -14,10 +14,8 @@ div {
 	width: calc(100vw/3);
 	background-image: url("image/ocean.png");
 	background-repeat: no-repeat;
-  	background-size:contain;
-	background-position:center;
-	max-height: 100%;
-	max-width: 100%;
+  	background-size: contain;
+	background-position: center;
 }
 
 .puzzle {
@@ -30,10 +28,8 @@ div {
 	cursor: pointer;
 	background-image: url("image/ice.png");
 	background-repeat: no-repeat;
- 	background-size:contain;
-	background-position:center;
-	max-height: 100%;
-	max-width: 100%;
+ 	background-size: contain;
+	background-position: center;
 }
 
 .sky {
@@ -41,10 +37,8 @@ div {
 	width: calc(100vw/3);
 	background-image: url("image/sky.png");
 	background-repeat: no-repeat;
-  	background-size:contain;
-	background-position:center;
-	max-height: 100%;
-	max-width: 100%;
+  	background-size: contain;
+	background-position: center;
 }
 
 .sky1 {
@@ -52,10 +46,8 @@ div {
 	width: calc(100vw/3);
 	background-image: url("image/sky1.png");
 	background-repeat: no-repeat;
-  	background-size:contain;
-	background-position:center;
-	max-height: 100%;
-	max-width: 100%;
+  	background-size: contain;
+	background-position: center;
 }
 
 .sky2 {
@@ -63,10 +55,8 @@ div {
 	width: calc(100vw/3);
 	background-image: url("image/sky2.png");
 	background-repeat: no-repeat;
-  	background-size:contain;
-	background-position:center;
-	max-height: 100%;
-	max-width: 100%;
+  	background-size: contain;
+	background-position: center;
 }
 
 .home {
@@ -74,8 +64,6 @@ div {
 	width: calc(100vw/3);
 	background-image: url("image/home.png");
 	background-repeat: no-repeat;
-  	background-size:contain;
-	background-position:center;
-	max-height: 100%;
-	max-width: 100%;
+  	background-size: contain;
+	background-position: center;
 }
