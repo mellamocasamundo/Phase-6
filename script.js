@@ -35,10 +35,9 @@ function nextThirdImage(el){
 	} else if (el.src.match("image/ice1.png")){ 
 		el.src = "image/dirt.png";
 		mySound.play();
-		d.src = "";
+		d.src = "image/boss_key.gif";
 		e.src = "image/acorn.png"
 		mySound1.play();
-		f.src = "image/boss_key.gif";
 		alert("Scrat has his acorn!");
 	} else {
 	}
