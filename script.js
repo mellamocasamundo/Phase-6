@@ -25,6 +25,7 @@ function nextThirdImage(el){
 		e.src = "image/acorn.png"
 		mySound1.play();
 		alert("Scrat has his acorn!");
+		a.classList.remove('pointer);
 	} else {
 	}
 }
@@ -36,7 +37,8 @@ function nextSecondImage(el){
 	} else if (el.src.match("image/ice1.png")){ 
 		el.src = "image/dirt.png";
 		mySound.play();
-		c.classList.add('pointer');
+		a.classList.add('pointer');
+		b.classList.remove('pointer);
 	} else {
 	}
 }
@@ -49,6 +51,7 @@ function nextFirstImage(el){
 		el.src = "image/dirt.png";
 		mySound.play();
 		b.classList.add('pointer');
+		c.classList.remove('pointer);
 	} else {
 	}
 }
