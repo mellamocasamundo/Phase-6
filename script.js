@@ -6,13 +6,21 @@ e = document.getElementById("acorn1");
 var mySound = document.getElementById('cracking');
 var mySound1 = document.getElementById('scrat');
 
-function nextFirstImage(el){
-	if (el.src.match("image/ice.png")){ 
+function nextPage(el){
+		window.location.href = "http://github.com";	
+
+function nextThirdImage(el){
+	if (el.src.match("image/ice.png") && b.src.match("image/dirt.png") && c.src.match("image/dirt.png")){
 		el.src = "image/ice1.png";
 		mySound.play();
 	} else if (el.src.match("image/ice1.png")){ 
 		el.src = "image/dirt.png";
+		d.classList.add('key');
 		mySound.play();
+		d.src = "image/boss_key.gif";
+		e.src = "image/acorn.png"
+		mySound1.play();
+		alert("Scrat has his acorn!");
 	} else {
 	}
 }
@@ -27,18 +35,14 @@ function nextSecondImage(el){
 	} else {
 	}
 }
-function nextThirdImage(el){
-	if (el.src.match("image/ice.png") && b.src.match("image/dirt.png") && c.src.match("image/dirt.png")){
+
+function nextFirstImage(el){
+	if (el.src.match("image/ice.png")){ 
 		el.src = "image/ice1.png";
 		mySound.play();
 	} else if (el.src.match("image/ice1.png")){ 
 		el.src = "image/dirt.png";
-		d.classList.add('key');
 		mySound.play();
-		d.src = "image/boss_key.gif";
-		e.src = "image/acorn.png"
-		mySound1.play();
-		alert("Scrat has his acorn!");
 	} else {
 	}
 }
