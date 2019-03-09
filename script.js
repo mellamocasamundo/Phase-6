@@ -9,7 +9,7 @@ var mySound1 = document.getElementById('scrat');
 
 function nextPage(el){
 	if (a.src.match("image/dirt.png") && b.src.match("image/dirt.png") && c.src.match("image/dirt.png")){
-		window.location.href = "http://github.com";	
+		window.location = "http://github.com";	
 	} else {
 	}
 }
