@@ -14,7 +14,7 @@ div {
 	width: calc(100vw/3);
 	background-image: url("image/ocean.png");
 	background-repeat: no-repeat;
-  	background-size: cover;
+  	background-size: 100% 100%;
 	background-position: center;
 }
 
@@ -28,7 +28,7 @@ div {
 	cursor: pointer;
 	background-image: url("image/ice.png");
 	background-repeat: no-repeat;
- 	background-size: cover;
+ 	background-size: 100% 100%;
 	background-position: center;
 }
 
@@ -37,7 +37,7 @@ div {
 	width: calc(100vw/3);
 	background-image: url("image/sky.png");
 	background-repeat: no-repeat;
-  	background-size: cover;
+  	background-size: 100% 100%;
 	background-position: center;
 }
 
@@ -46,7 +46,7 @@ div {
 	width: calc(100vw/3);
 	background-image: url("image/sky1.png");
 	background-repeat: no-repeat;
-  	background-size: cover;
+  	background-size: 100% 100%;
 	background-position: center;
 }
 
@@ -55,7 +55,7 @@ div {
 	width: calc(100vw/3);
 	background-image: url("image/sky2.png");
 	background-repeat: no-repeat;
-  	background-size: cover;
+  	background-size: 100% 100%;
 	background-position: center;
 }
 
@@ -64,6 +64,6 @@ div {
 	width: calc(100vw/3);
 	background-image: url("image/home.png");
 	background-repeat: no-repeat;
-  	background-size: cover;
+  	background-size: 100% 100%;
 	background-position: center;
 }
