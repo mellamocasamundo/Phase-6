@@ -26,7 +26,7 @@ function nextThirdImage(el){
 		e.src = "image/acorn.png"
 		mySound1.play();
 		alert("Scrat has his acorn!");
-		a.classList.remove('pointer);
+		a.classList.remove('pointer');
 	} else {
 	}
 }
@@ -39,7 +39,7 @@ function nextSecondImage(el){
 		el.src = "image/dirt.png";
 		mySound.play();
 		a.classList.add('pointer');
-		b.classList.remove('pointer);
+		b.classList.remove('pointer');
 	} else {
 	}
 }
@@ -52,14 +52,14 @@ function nextFirstImage(el){
 		el.src = "image/dirt.png";
 		mySound.play();
 		b.classList.add('pointer');
-		c.classList.remove('pointer);
+		c.classList.remove('pointer');
 	} else {
 	}
 }
 
 function checkOrder(el){
 	if (a.src.match("image/dirt.png") && b.src.match("image/dirt.png") && c.src.match("image/dirt.png")){
-		f.classList.remove('pointer);
+		f.classList.remove('pointer');
 	} else {
 		alert("Scrat wants his acorn!");
 	}
