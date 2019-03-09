@@ -27,6 +27,7 @@ function nextThirdImage(el){
 		mySound1.play();
 		alert("Scrat has his acorn!");
 		a.classList.remove('pointer');
+		f.classList.remove('pointer');
 	} else {
 	}
 }
@@ -59,7 +60,6 @@ function nextFirstImage(el){
 
 function checkOrder(el){
 	if (a.src.match("image/dirt.png") && b.src.match("image/dirt.png") && c.src.match("image/dirt.png")){
-		f.classList.remove('pointer');
 	} else {
 		alert("Scrat wants his acorn!");
 	}
