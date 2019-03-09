@@ -26,6 +26,7 @@ function nextThirdImage(el){
 		e.src = "image/acorn.png"
 		mySound1.play();
 		alert("Scrat has his acorn!");
+		e.classList.add('image');
 		a.classList.remove('pointer');
 		f.classList.remove('pointer');
 	} else {
