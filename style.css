@@ -9,33 +9,19 @@ div {
 	display: block;
 }
 
-.water {
-	height: calc(100vh/(4/3));
+.sky {
+	height: calc(100vh/4);
 	width: calc(100vw/3);
-	background-image: url("image/ocean.png");
+	background-image: url("image/sky.png");
 	background-repeat: no-repeat;
   	background-size: 100% 100%;
 	background-position: center;
 }
 
-.puzzle {
-	height: calc((100vh/6)*3);
+.water {
+	height: calc(100vh/(4/3));
 	width: calc(100vw/3);
-}
-.ice {
-	height: calc(100vh/6);
-	width: calc(100vw/3);
-	cursor: pointer;
-	background-image: url("image/ice.png");
-	background-repeat: no-repeat;
- 	background-size: 100% 100%;
-	background-position: center;
-}
-
-.sky {
-	height: calc(100vh/4);
-	width: calc(100vw/3);
-	background-image: url("image/sky.png");
+	background-image: url("image/ocean.png");
 	background-repeat: no-repeat;
   	background-size: 100% 100%;
 	background-position: center;
@@ -48,14 +34,27 @@ div {
 	background-repeat: no-repeat;
   	background-size: 100% 100%;
 	background-position: center;
+	align-items: center;
+	justify-content: center;
 }
 
-.sky2 {
-	height: calc(100vh/4);
+.acorn {
+	height: ;
+	width: ;
+}
+
+.puzzle {
+	height: calc((100vh/6)*3);
 	width: calc(100vw/3);
-	background-image: url("image/sky2.png");
+}
+
+.ice {
+	height: calc(100vh/6);
+	width: calc(100vw/3);
+	cursor: pointer;
+	background-image: url("image/ice.png");
 	background-repeat: no-repeat;
-  	background-size: 100% 100%;
+ 	background-size: 100% 100%;
 	background-position: center;
 }
 
@@ -63,6 +62,15 @@ div {
 	height: calc(100vh/4);
 	width: calc(100vw/3);
 	background-image: url("image/home.png");
+	background-repeat: no-repeat;
+  	background-size: 100% 100%;
+	background-position: center;
+}
+
+.sky2 {
+	height: calc(100vh/4);
+	width: calc(100vw/3);
+	background-image: url("image/sky2.png");
 	background-repeat: no-repeat;
   	background-size: 100% 100%;
 	background-position: center;
