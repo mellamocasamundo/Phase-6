@@ -36,8 +36,7 @@ div {
 
 .image {
 	display: block;
-  	margin-left: auto;
-  	margin-right: auto;
+  	margin: auto;
 	height:60%;
 	width:40%;
 	position: fixed;
