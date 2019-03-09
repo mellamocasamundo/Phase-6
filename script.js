@@ -3,6 +3,7 @@ b = document.getElementById("ice2");
 c = document.getElementById("ice3");
 d = document.getElementById("acorn");
 e = document.getElementById("acorn1");
+f = document.getElementById("home');
 var mySound = document.getElementById('cracking');
 var mySound1 = document.getElementById('scrat');
 
@@ -58,6 +59,7 @@ function nextFirstImage(el){
 
 function checkOrder(el){
 	if (a.src.match("image/dirt.png") && b.src.match("image/dirt.png") && c.src.match("image/dirt.png")){
+		f.classList.remove('pointer);
 	} else {
 		alert("Scrat wants his acorn!");
 	}
