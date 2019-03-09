@@ -36,6 +36,7 @@ function nextSecondImage(el){
 	} else if (el.src.match("image/ice1.png")){ 
 		el.src = "image/dirt.png";
 		mySound.play();
+		c.classList.add('pointer');
 	} else {
 	}
 }
@@ -47,6 +48,7 @@ function nextFirstImage(el){
 	} else if (el.src.match("image/ice1.png")){ 
 		el.src = "image/dirt.png";
 		mySound.play();
+		b.classList.add('pointer');
 	} else {
 	}
 }
