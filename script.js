@@ -5,6 +5,7 @@ d = document.getElementById("sky");
 e = document.getElementById("key");
 f = document.getElementById("home");
 g = document.getElementById("acorn");
+h = document.getElementById("acorn1");
 var mySound = document.getElementById('cracking');
 var mySound1 = document.getElementById('scrat');
 
@@ -36,8 +37,8 @@ function nextThirdImage(el){
 	} else if (el.src.match("image/ice1.png")){ 
 		el.src = "image/dirt.png";
 		mySound.play();
-		f.src = "image/home1.png";
-		d.src = "image/sky1.png"
+		g.src = "";
+		h.src = "image/acorn.png"
 		mySound1.play();
 		e.src = "image/boss_key.gif";
 		alert("Scrat has his acorn!");
