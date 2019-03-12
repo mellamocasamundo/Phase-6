@@ -7,12 +7,6 @@ f = document.getElementById("home");
 var mySound = document.getElementById('cracking');
 var mySound1 = document.getElementById('scrat');
 
-function nextPage(el){
-	if (a.src.match("image/dirt.png") && b.src.match("image/dirt.png") && c.src.match("image/dirt.png")){
-		window.open = "https://appendto.com/2016/04/javascript-redirect-how-to-redirect-a-web-page-with-javascript/";	
-	} else {
-	}
-}
 
 function nextThirdImage(el){
 	if (el.src.match("image/ice.png") && b.src.match("image/dirt.png") && c.src.match("image/dirt.png")){
